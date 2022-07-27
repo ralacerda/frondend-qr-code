@@ -1,0 +1,29 @@
+@import "variables";
+@import "globals";
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+
+
+    background-color: white;
+    padding: 40px;
+    margin: 30px;
+    text-align: center;
+
+    p {
+        font-size: 0.9375rem;
+    }
+
+    img {
+        height: 200px;
+        width: auto;
+    }
+    
+}
+
