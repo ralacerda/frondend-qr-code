@@ -1,6 +1,7 @@
 html {
   font-size: 100%;
   box-sizing: border-box;
+  height: 100%;
 }
 
 *, *::before, *::after {
@@ -8,10 +9,15 @@ html {
 }
 
 body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   font-family: "Outfit", sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 1.3rem;
+  line-height: 1.4;
   background-color: hsl(212deg, 45%, 89%);
 }
 
@@ -24,14 +30,31 @@ section {
 
 .content {
   background-color: white;
-  padding: 40px;
-  margin: 30px;
+  max-width: 320px;
+  min-width: 305px;
+  margin: 28px;
   text-align: center;
+  border-radius: 15px;
+}
+.content .text {
+  margin: 10px 25px 35px 25px;
 }
 .content p {
   font-size: 0.9375rem;
+  color: hsl(220deg, 15%, 55%);
+  letter-spacing: 0.2px;
+  line-height: 1.3;
+}
+.content h1 {
+  color: hsl(218deg, 44%, 22%);
+  letter-spacing: 0.6px;
+  font-size: 21px;
+  line-height: 1.3;
 }
 .content img {
-  height: 200px;
-  width: auto;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+  height: auto;
+  width: 288px;
 }/*# sourceMappingURL=syles.css.map */
